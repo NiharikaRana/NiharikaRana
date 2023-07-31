@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Styling for the body element */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(movie2.jpg);/* Background image for the body */
+    background-size: cover;/* Make sure the background image covers the entire body */
+}
+/* Styling for the movie container */
+.movie-container{
+    width: 80%;
+    height: auto;
+    border: 5px solid rgba(255,255,255,0.4);
+    background :  none;
+    backdrop-filter: blur(50px);/* Apply a blur effect to the background */
+    position: relative;
+    box-shadow: 0 50px 55px -10px #000;
+}/* Styling for the image within the movie container */
+img{
+    float: right;
+}/* Styling for the movie title */
+.title{
+    position: absolute;
+    color:rgb(7, 8, 8);
+    padding: 50px 80px;
+    font-size: 125px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}/* Styling for the chapter heading */
+
+h3{
+    position: absolute;
+    font-size: 40px;
+    color: rgb(9, 8, 8);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 56px;
+    top: 180px;
+    left: 100px;
+}
+/* Styling for the movie description */
+.dis{
+    position:absolute;
+    top: 45%;
+    
+    padding: 80px 80px;
+    color:rgb(228, 200, 200);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Styling for the "Watch Online" button */
+.btn2{
+position:absolute;
+ top: 90%;   
+ left: 900px;
+ padding: 10px 60px;
+ font-size: 20px;
+ border: 2px solid #f7f2f2;
+ background: none;
+ color:aliceblue;
+ text-transform: uppercase;
+ transition: 0.8s;
+ letter-spacing: 5px;
+ cursor: pointer;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, san
+}
+/* Styling for the "Get Tickets" button */
+.btn1{
+    position:absolute;
+     top: -3%;   
+     right: 400px;
+     padding: 10px 40px;
+     font-size: 15px;
+     border: 1px solid #f7f2f2;
+     
+     color:rgb(54, 219, 120);
+     text-transform: uppercase;
+     transition: 0.8s;
+     letter-spacing: 5px;
+     cursor: pointer;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, san
+    }
+
+
+.btn1,.btn2{
+background-color: black;
+}
+/* Styling for the buttons on hover */
+.btn1:hover,.btn2:hover{
+color: rgb(90, 90, 150);
+}
+/* Styling for the buttons on hover */
+a:hover{
+    background-color: aqua;
+
+}
